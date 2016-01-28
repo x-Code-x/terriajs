@@ -22,6 +22,10 @@ Change Log
 * Treats `-`, `na` and `NA` in csv files as if zero by default; can change this list using `tableStyle.replaceWithNullValues`, and can set an alternative color for these values using `tableStyle.nullColor`.
 * Recognises the csv datetime formats: YYYY, YYYY-MM, YYYY-MM-DD HH:MM(:SS) and YYYY/MM/DD HH:MM(:SS).
 * Nicer formatting of datetimes from csv files in the feature info panel.
+* Introduced three new json tableStyle parameters:
+  - `replaceWithZeroValues`: defaults to `[null, '-']`. These values are replaced with zero if they appear in a list with numbers. `null` catches missing values.
+  - `replaceWithNullValues`: defaults to `['na', 'NA']`. These values are replaced with null if they appear in a list with numbers.
+  - `nullColor`: defaults to a dark blue. This color is used to display null values (but it does not appear on the legend; we should add it). It is also used to display points when no variable is selected.
 
 ### 1.0.54
 
