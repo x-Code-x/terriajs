@@ -44,7 +44,7 @@ const Timeline = React.createClass({
         const terria = this.props.terria;
 
         return (
-            <div>
+            <div className='timeline-wrapper'>
                 <TimelineControls clock={terria.clock} analytics={terria.analytics} currentViewer={terria.currentViewer} />
                 <div className="animation-name animation-text" title="Current Layer">
                     <div className="animation-text-display">{this.state.layerName}</div>

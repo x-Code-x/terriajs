@@ -96,25 +96,25 @@ const TimelineControls = React.createClass({
                 <div className="animation-text" title="Current Time (tz info et al)">
                     <div className="animation-text-display">{this.state.currentTimeString}</div>
                 </div>
-                <button className="animation-control"
+                <button className="btn animation-control"
                      onClick={this.gotoStart}
                      title="Go to beginning">
                     START
                 </button>
-                <button className="animation-control" onClick={this.togglePlay} title="Play">
+                <button className="btn animation-control" onClick={this.togglePlay} title="Play">
                     PLAY
                 </button>
-                <button className="animation-control"
+                <button className="btn animation-control"
                      onClick={this.playSlower}
                      title="Play Slower">
                     SLOW
                 </button>
-                <button className="animation-control animation-control-nofill"
+                <button className="btn animation-control animation-control-nofill"
                      onClick={this.playFaster}
                      title="Play Faster">
                     FAST
                 </button>
-                <button className="animation-control animation-control-last" onClick={this.toggleLoop}
+                <button className="btn animation-control animation-control-last" onClick={this.toggleLoop}
                      title="Loop at the end">
                     LOOP
                 </button>

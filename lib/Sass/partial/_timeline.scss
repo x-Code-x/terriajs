@@ -1,0 +1,14 @@
+.bottom-dock{
+    z-index: 99;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    @media screen and (min-width : $sm){
+      left: $work-bench-width;
+    }
+}
+
+.timeline-wrapper{
+    background: $dark;
+}
