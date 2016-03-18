@@ -58,6 +58,7 @@
 .feature-info-panel__title{
   position: relative;
   width: 100%;
+  font-family: bold;
   @extend .btn--toggle;
   padding: $padding $padding*2 $padding 0;
   &:before{

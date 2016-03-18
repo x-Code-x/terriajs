@@ -6,6 +6,9 @@
     left: 0;
     @media screen and (min-width : $sm){
       left: $work-bench-width;
+      .is-full-screen & {
+        left: 0;
+      }
     }
 }
 
