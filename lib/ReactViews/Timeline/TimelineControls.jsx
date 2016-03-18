@@ -92,9 +92,9 @@ const TimelineControls = React.createClass({
 
     render() {
         return (
-            <div>
-                <div className="animation-text" title="Current Time (tz info et al)">
-                    <div className="animation-text-display">{this.state.currentTimeString}</div>
+            <div className='timeline-controls'>
+                <div className="animation-text label" title="Current Time (tz info et al)">
+                    {this.state.currentTimeString}
                 </div>
                 <button className="btn animation-control"
                      onClick={this.gotoStart}

@@ -15,3 +15,7 @@
 .timeline-wrapper{
     background: $dark;
 }
+
+.timeline-controls{
+  @extend .flex;
+}
