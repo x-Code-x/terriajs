@@ -17,6 +17,7 @@ TerriaJS is a library for building rich, web-based geospatial data explorers, us
 * 3D globe (Cesium) or 2D mode (Leaflet). 3D objects supported in CZML format.
 * Time dimensions supported for CSV, CZML, WMS. Automatically animate layers, or slide the time control forward and backward.
 * Drag-and-drop files from your desktop the browser, for instant visualisation (no file upload to server required).
+* Wider range of file types supported through server-side OGR2OGR service (requires upload).
 * All ASGS region types (LGA, SA2, commonwealth electoral district etc) supported for [CSV region mapping](https://github.com/NICTA/nationalmap/wiki/csv-geo-au), plus several others: Primary Health Networks, Statistical Local Areas, ISO 3 letter country codes, etc.
 * Users can generate a reusable URL link of their current map view, to quickly share mashups of web-hosted data. Google's URL shortener is optionally used.
 
@@ -46,6 +47,10 @@ gulp watch                                         # Build the site, and watch f
 Now visit the site in your browser at `http://localhost:3001`.
  
 More information: [Deploying your own Terria Map](https://github.com/NICTA/nationalmap/wiki/Deploying-your-own-Terria-Map)
+
+Documentation about working with Terria and developing it is at http://terria.io/Documentation
+
+JavaScript documentation is at http://nationalmap.gov.au/build/TerriaJS/doc
 
 ### Components and naming
 
